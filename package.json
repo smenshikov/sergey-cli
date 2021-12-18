@@ -1,0 +1,7 @@
+{
+  "name": "sergey-cli",
+  "version": "1.0.0",
+  "bin": {
+    "sergey-cli": "index.js"
+  }
+}
