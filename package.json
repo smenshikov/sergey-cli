@@ -8,5 +8,13 @@
   ],
   "bin": {
     "sergey-cli": "index.js"
+  },
+  "license": "MIT",
+  "repository": "smenshikov/sergey-cli",
+  "main": "index.js",
+  "author": {
+    "email": "menshickowserezha@yandex.ru",
+    "name": "Menshikov Sergey",
+    "url": "https://github.com/smenshikov"
   }
 }
