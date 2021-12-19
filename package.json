@@ -16,5 +16,9 @@
     "email": "menshickowserezha@yandex.ru",
     "name": "Menshikov Sergey",
     "url": "https://github.com/smenshikov"
-  }
+  },
+  "dependencies": {
+    "chalk": "^5.0.0"
+  },
+  "type": "module"
 }

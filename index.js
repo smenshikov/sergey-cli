@@ -1,9 +1,16 @@
 #!/usr/bin/env node
-const packageJson = require('./package.json')
+import chalk from 'chalk'
+import fs from 'fs'
+const packageJson = JSON.parse(fs.readFileSync('./package.json'))
+
+const bgYellow = chalk.bgYellowBright
+const dim = chalk.dim
+const italic = chalk.italic
+const bold = chalk.bold
 
 console.log(`
-${packageJson.description}
+${bgYellow(` ${packageJson.name} `)} v${packageJson.version}
 
-Hey! I name is Sergey! 
-I am a frontend developer. I work for company 'Lucy in the Sky'
+${italic(`Hey! ${bgYellow(` My name is Sergey! `)} ${bold(`I am a frontend developer.`)}
+${dim(`I work for company 'Lucy in the Sky'`)}`)}
 `)
