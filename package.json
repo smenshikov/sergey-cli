@@ -20,5 +20,8 @@
   "dependencies": {
     "chalk": "^5.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
