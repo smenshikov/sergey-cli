@@ -16,6 +16,7 @@ import fs from "fs";
 
   console.log();
   console.log(`${bgYellow(` ${packageJson.name} `)} v${packageJson.version}`);
+  console.log();
   console.log(
     `${italic(
       `Hey! ${bgYellow(` My name is Sergey! `)} ${bold(
